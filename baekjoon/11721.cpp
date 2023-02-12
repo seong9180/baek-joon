@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> //getline() 을 이용하기 위함.
+#include <string> 
 
 using namespace std;
 
@@ -12,6 +12,7 @@ int main()
         cout << str[i];
 
         if(i % 10 == 9) cout << endl;
+        //다시 공부 필요
     }
     return 0;
 }
