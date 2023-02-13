@@ -12,7 +12,7 @@ int main()
         cout << str[i];
 
         if(i % 10 == 9) cout << endl;
-        //다시 공부 필요
+        //다시 공부 필요..
     }
     return 0;
 }
