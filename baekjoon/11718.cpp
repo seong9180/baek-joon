@@ -18,6 +18,6 @@ int main()
     for(int i=0; i<100 ;i++)
     {
         cout << str[i] << "\n";
-    }
+    }//음하하
     return 0;
 }
