@@ -13,11 +13,27 @@ int main()
             for(int j=0;j<=i;++j){
                 cout << "*";
             }
-            for(int k=2*(n-1);k>)
+            for(int k=2*(n-1);k>0;----k){// 이런식으로 적어도 괜찮나.. k값이 2 씩 줄었으면 좋겠다.
+                cout << " "; //공백 출력
+            }
+            for(int j=0;j<=i;++j){
+                cout << "*";
+            }
+            cout << "\n";
         }
         else{
-
+            for(int x=n-1;x<i;--x){
+                cout << "*";
+            }
+            for(int y=2;y<=2*(n-1);++++y){
+                cout << " ";
+            }
+            for(int x=n-1;x<i;--x){
+                cout << "*";
+            }
+            cout << "\n";
         }
         
     }
+    return 0;
 }
