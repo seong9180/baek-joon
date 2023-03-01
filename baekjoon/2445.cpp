@@ -25,13 +25,14 @@ int main()
             for(int x=n-1;x<i;--x){
                 cout << "*";
             }
-            for(int y=2;y<=2*(n-1);++++y){
+            for(int y=2;y<=(2*n-1);++++y){
                 cout << " ";
             }
             for(int x=n-1;x<i;--x){
                 cout << "*";
             }
             cout << "\n";
+            
         }
         
     }
