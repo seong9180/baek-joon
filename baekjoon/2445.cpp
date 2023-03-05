@@ -20,7 +20,7 @@ int main()
                 cout << "*";
             }
             cout << "\n";
-            
+
         }
         else{
             for(int x=n-1;x<i;--x){
@@ -33,7 +33,7 @@ int main()
                 cout << "*";
             }
             cout << "\n";
-
+            
         }
         
     }
