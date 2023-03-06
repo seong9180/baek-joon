@@ -19,21 +19,21 @@ int main()
             for(int j=0;j<=i;++j){
                 cout << "*";
             }
-            cout << "\n";
+            //cout << "\n";
 
         }
         else{
-            for(int x=n-1;x<i;--x){
+            for(int x=(n-1);x<i;--x){
                 cout << "*";
             }
-            for(int y=2;y<=(2*n-1);++++y){
+            for(int y=2;y<=2*(n-1);++++y){
                 cout << " ";
             }
-            for(int x=n-1;x<i;--x){
+            for(int x=(n-1);x<i;--x){
                 cout << "*";
             }
             cout << "\n";
-            
+
         }
         
     }
